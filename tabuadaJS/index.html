@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        #numero{
+            width: 300px;
+            height: 3rem;
+        }
+        button{
+            padding: 1rem 3rem;
+            font-size: 1.1rem;
+        }
+
+        div{
+            width: 50%;
+            height: 50%;
+            outline: 1px solid black;
+        }
+
+        p:nth-child(11n){
+            margin-bottom: 1rem;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>Tabuada</h1>
+    <input type="number" name="" id="numero" placeholder="Digite um número para saber sua tabuada">
+    <button>Calcular</button>
+    <div class="resultado">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
